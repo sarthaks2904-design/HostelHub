@@ -1,0 +1,54 @@
+{
+  "weekOf": "2026-05-04",
+  "days": [
+    {
+      "day": "Monday",
+      "breakfast": "Poha & Tea",
+      "lunch": "Dal Rice",
+      "snacks": "Fruit & Juice",
+      "dinner": "Roti Sabzi"
+    },
+    {
+      "day": "Tuesday",
+      "breakfast": "Idli & Sambar",
+      "lunch": "Rajma Rice",
+      "snacks": "Fruit & Juice",
+      "dinner": "Khichdi"
+    },
+    {
+      "day": "Wednesday",
+      "breakfast": "Aloo Paratha",
+      "lunch": "Paneer Curry",
+      "snacks": "Fruit & Juice",
+      "dinner": "Noodles"
+    },
+    {
+      "day": "Thursday",
+      "breakfast": "Oats Bowl",
+      "lunch": "Veg Pulao",
+      "snacks": "Fruit & Juice",
+      "dinner": "Pasta"
+    },
+    {
+      "day": "Friday",
+      "breakfast": "Sandwich",
+      "lunch": "Chole Bhature",
+      "snacks": "Fruit & Juice",
+      "dinner": "Fried Rice"
+    },
+    {
+      "day": "Saturday",
+      "breakfast": "Upma",
+      "lunch": "Sambar Rice",
+      "snacks": "Fruit & Juice",
+      "dinner": "Dal Tadka"
+    },
+    {
+      "day": "Sunday",
+      "breakfast": "Puri Bhaji",
+      "lunch": "Biryani",
+      "snacks": "Fruit & Juice",
+      "dinner": "Mixed Veg Curry"
+    }
+  ]
+}

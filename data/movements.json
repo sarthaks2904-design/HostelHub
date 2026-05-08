@@ -1,0 +1,62 @@
+[
+  {
+    "id": "movement-9c63e30d-8cf0-40c7-9553-01111dbe43f7",
+    "studentId": "stu-002",
+    "purpose": "Home",
+    "status": "OVERDUE",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-06T23:28:02.490Z",
+    "expectedReturnTime": "2026-05-07T04:28:02.490Z",
+    "returnTime": null,
+    "note": "Family visit",
+    "createdAt": "2026-05-06T23:28:02.490Z",
+    "updatedAt": "2026-05-07T06:07:11.545Z",
+    "violationApplied": false,
+    "overdueAlertedAt": "2026-05-07T06:07:11.545Z"
+  },
+  {
+    "id": "movement-be5f3732-7920-472b-888b-62ff3793d0d5",
+    "studentId": "stu-003",
+    "purpose": "Medical",
+    "status": "OVERDUE",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-06T20:28:02.490Z",
+    "expectedReturnTime": "2026-05-07T01:43:02.490Z",
+    "returnTime": null,
+    "note": "Clinic visit",
+    "createdAt": "2026-05-06T20:28:02.490Z",
+    "updatedAt": "2026-05-06T20:28:02.490Z",
+    "violationApplied": true,
+    "overdueAlertedAt": null
+  },
+  {
+    "id": "movement-a50b9f79-38dc-46bb-829c-3b299c781ca8",
+    "studentId": "stu-001",
+    "purpose": "College",
+    "status": "CLOSED",
+    "mode": "QR",
+    "exitTime": "2026-05-05T20:28:02.490Z",
+    "expectedReturnTime": "2026-05-06T00:28:02.490Z",
+    "returnTime": "2026-05-05T23:28:02.490Z",
+    "note": "Lab session",
+    "createdAt": "2026-05-05T20:28:02.490Z",
+    "updatedAt": "2026-05-05T23:28:02.490Z",
+    "violationApplied": false,
+    "overdueAlertedAt": null
+  },
+  {
+    "id": "movement-1ced099e-bec4-40a4-9762-2584a7ee455e",
+    "studentId": "student-85788fab-5412-4742-9eee-93b308cedf74",
+    "purpose": "Home",
+    "status": "CLOSED",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-07T02:32:39.731Z",
+    "expectedReturnTime": "2026-05-09T07:36:00.000Z",
+    "returnTime": "2026-05-07T02:32:43.735Z",
+    "note": "Going home bcz of my marzi",
+    "createdAt": "2026-05-07T02:32:39.735Z",
+    "updatedAt": "2026-05-07T02:32:43.735Z",
+    "violationApplied": false,
+    "overdueAlertedAt": null
+  }
+]

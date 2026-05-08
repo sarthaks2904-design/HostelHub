@@ -1,0 +1,180 @@
+[
+  {
+    "id": "notification-0b77fbd9-a5f7-4265-8272-e339652140fb",
+    "title": "Weekly inspection",
+    "message": "Room inspection starts tomorrow at 10:00 AM.",
+    "type": "GENERAL",
+    "audience": "ALL",
+    "recipientIds": [],
+    "recipientRoles": [
+      "ADMIN",
+      "WARDEN",
+      "STUDENT"
+    ],
+    "readBy": [
+      {
+        "userId": "student-85788fab-5412-4742-9eee-93b308cedf74",
+        "readAt": "2026-05-07T02:31:24.680Z"
+      }
+    ],
+    "createdBy": "admin-root",
+    "createdAt": "2026-05-06T14:28:02.490Z"
+  },
+  {
+    "id": "notification-c8c3b10b-5ca6-4451-b80c-170c51e4d72d",
+    "title": "Overdue alert",
+    "message": "Kabir Nair has crossed the expected return time.",
+    "type": "EMERGENCY",
+    "audience": "STAFF",
+    "recipientIds": [],
+    "recipientRoles": [
+      "ADMIN",
+      "WARDEN"
+    ],
+    "readBy": [],
+    "createdBy": "warden-main",
+    "createdAt": "2026-05-07T01:48:02.490Z"
+  },
+  {
+    "id": "notification-6da00af8-2bc4-4a16-af25-5f7099cb04b1",
+    "title": "Mess feedback reminder",
+    "message": "Submit your lunch rating before 8 PM.",
+    "type": "PERSONAL",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "stu-001",
+      "stu-004"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "admin-root",
+    "createdAt": "2026-05-07T00:28:02.490Z"
+  },
+  {
+    "id": "notification-4c0b9ac4-f89e-473a-b355-8e9b1fc02bbc",
+    "title": "Welcome to HostelHub",
+    "message": "Your hostel account is ready. Check your dashboard for status, fees, and services.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-85788fab-5412-4742-9eee-93b308cedf74"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "system",
+    "createdAt": "2026-05-07T02:30:50.023Z"
+  },
+  {
+    "id": "notification-62e81e08-3d19-4151-8825-3bd211c04346",
+    "title": "Return marked successfully",
+    "message": "Your return to hostel was recorded at 07/05/2026, 08:02:43.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-85788fab-5412-4742-9eee-93b308cedf74"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "student-85788fab-5412-4742-9eee-93b308cedf74",
+    "createdAt": "2026-05-07T02:32:43.820Z"
+  },
+  {
+    "id": "notification-06aa5ba5-f382-4d08-b0fb-896270730e2c",
+    "title": "Student overdue",
+    "message": "Ishita Verma has exceeded the expected return time.",
+    "type": "EMERGENCY",
+    "audience": "SELECTED",
+    "recipientIds": [],
+    "recipientRoles": [
+      "ADMIN",
+      "WARDEN"
+    ],
+    "readBy": [],
+    "createdBy": "system",
+    "createdAt": "2026-05-07T06:07:11.546Z"
+  },
+  {
+    "id": "notification-301287d6-6863-4505-8c03-51b7ac6bc1e2",
+    "title": "Welcome to HostelHub",
+    "message": "Your hostel account is ready. Check your dashboard for status, fees, and services.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-4c478e55-0b52-412f-a918-215985c5a1a6"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "system",
+    "createdAt": "2026-05-07T06:10:35.246Z"
+  },
+  {
+    "id": "notification-d435acd9-e271-488e-b80d-bf63a75fa22e",
+    "title": "Welcome to HostelHub",
+    "message": "Your hostel account is ready. Check your dashboard for fee updates, movements, and complaints.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-ca2275ba-9257-4b7a-9ab0-59b50e5b89bc"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "system",
+    "createdAt": "2026-05-07T14:05:23.687Z"
+  },
+  {
+    "id": "notification-2d4212dc-508f-470e-bbed-2bdcc20c8207",
+    "title": "Fee record updated",
+    "message": "Your hostel fee record was updated by the admin. Review the latest fee section in your dashboard.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-ca2275ba-9257-4b7a-9ab0-59b50e5b89bc"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "admin-root",
+    "createdAt": "2026-05-07T14:09:39.012Z"
+  },
+  {
+    "id": "notification-92036745-808a-45bc-bf24-f6bc3420be18",
+    "title": "Welcome to HostelHub",
+    "message": "Your hostel account is ready. Check your dashboard for fee updates, movements, and complaints.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-7b5b4d49-19e7-45c4-a5d1-3417a9b9c25e"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "system",
+    "createdAt": "2026-05-08T07:43:12.830Z"
+  },
+  {
+    "id": "notification-803c2ec4-4aab-43c9-b9f6-fe5117e65922",
+    "title": "New fee payment receipt submitted",
+    "message": "Yas Vishnu Kale uploaded a payment receipt for Rs 26000.",
+    "type": "GENERAL",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "admin-root"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "student-7b5b4d49-19e7-45c4-a5d1-3417a9b9c25e",
+    "createdAt": "2026-05-08T07:44:33.709Z"
+  },
+  {
+    "id": "notification-19ab6b33-7004-4d1c-bcd2-591c9afe5238",
+    "title": "Fee record updated",
+    "message": "Your hostel fee record was updated by the admin. Review the latest fee section in your dashboard.",
+    "type": "SYSTEM",
+    "audience": "SELECTED",
+    "recipientIds": [
+      "student-7b5b4d49-19e7-45c4-a5d1-3417a9b9c25e"
+    ],
+    "recipientRoles": [],
+    "readBy": [],
+    "createdBy": "admin-root",
+    "createdAt": "2026-05-08T07:54:24.040Z"
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "studentId": "stu-001",
+    "percentage": 100,
+    "presentDays": 7,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": [
+      {
+        "date": "2026-05-01",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-01T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-02",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-02T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-03",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-03T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-04",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-04T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-05",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-05T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-06",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-06T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-07",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-07T02:28:02.490Z"
+      }
+    ]
+  },
+  {
+    "studentId": "stu-002",
+    "percentage": 100,
+    "presentDays": 7,
+    "absentDays": 0,
+    "lateCount": 1,
+    "records": [
+      {
+        "date": "2026-05-01",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-01T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-02",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-02T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-03",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-03T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-04",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-04T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-05",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-05T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-06",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-06T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-07",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-07T02:28:02.490Z"
+      }
+    ]
+  },
+  {
+    "studentId": "stu-003",
+    "percentage": 0,
+    "presentDays": 0,
+    "absentDays": 7,
+    "lateCount": 0,
+    "records": [
+      {
+        "date": "2026-05-01",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-01T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-02",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-02T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-03",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-03T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-04",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-04T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-05",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-05T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-06",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-06T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-07",
+        "status": "ABSENT",
+        "updatedAt": "2026-05-07T02:28:02.490Z"
+      }
+    ]
+  },
+  {
+    "studentId": "stu-004",
+    "percentage": 100,
+    "presentDays": 7,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": [
+      {
+        "date": "2026-05-01",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-01T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-02",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-02T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-03",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-03T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-04",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-04T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-05",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-05T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-06",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-06T02:28:02.490Z"
+      },
+      {
+        "date": "2026-05-07",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-07T02:28:02.490Z"
+      }
+    ]
+  },
+  {
+    "studentId": "student-85788fab-5412-4742-9eee-93b308cedf74",
+    "percentage": 100,
+    "presentDays": 1,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": [
+      {
+        "date": "2026-05-07",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-07T02:32:43.735Z"
+      }
+    ]
+  },
+  {
+    "studentId": "student-4c478e55-0b52-412f-a918-215985c5a1a6",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  },
+  {
+    "studentId": "student-ca2275ba-9257-4b7a-9ab0-59b50e5b89bc",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  },
+  {
+    "studentId": "student-7b5b4d49-19e7-45c4-a5d1-3417a9b9c25e",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  }
+]

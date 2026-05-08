@@ -1,0 +1,10 @@
+[
+  {
+    "id": "admin-root",
+    "name": "Hostel Administrator",
+    "username": "admin",
+    "role": "ADMIN",
+    "passwordHash": "$2b$10$X8..5tniZLrnOo.1WwWiZ.o7HMq9MyOykHkt9Copgq4BAyPoGtakK",
+    "createdAt": "2026-05-07T02:28:02.491Z"
+  }
+]

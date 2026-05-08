@@ -1,0 +1,22 @@
+[
+  {
+    "id": "warden-main",
+    "name": "Chief Warden",
+    "username": "warden",
+    "role": "WARDEN",
+    "hostelType": "BOYS_HOSTEL",
+    "gender": "Male",
+    "passwordHash": "$2b$10$tH2tjJKnZc8xVi7h1ksYNuLe9NuDHaI3vtGhK6QyucnoLz/39UR9m",
+    "createdAt": "2026-05-07T02:28:02.492Z"
+  },
+  {
+    "id": "warden-girls",
+    "name": "Female Warden",
+    "username": "warden-girls",
+    "role": "WARDEN",
+    "hostelType": "GIRLS_HOSTEL",
+    "gender": "Female",
+    "passwordHash": "$2b$10$t8Xhh.IJK6V83454vEAbNu9b5d1j4nMqoPwAQgHq7hZy4x4Mgq/t6",
+    "createdAt": "2026-05-07T13:59:45.285Z"
+  }
+]

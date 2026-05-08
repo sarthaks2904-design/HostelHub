@@ -1,0 +1,30 @@
+[
+  {
+    "id": "complaint-ed5aa75a-669a-4721-bd28-da8a331a89f8",
+    "studentId": "stu-001",
+    "title": "Water leakage in washroom",
+    "description": "The second-floor washroom has a pipe leak near the sink.",
+    "category": "Maintenance",
+    "status": "In Progress",
+    "createdAt": "2026-05-06T08:28:02.490Z",
+    "updatedAt": "2026-05-06T20:28:02.490Z",
+    "resolutionNote": "",
+    "section": "GENERAL",
+    "evidenceImage": null,
+    "evidenceName": null
+  },
+  {
+    "id": "complaint-bb55f926-794d-442d-98b5-598885f38a92",
+    "studentId": "stu-004",
+    "title": "Wi-Fi instability",
+    "description": "Internet speed drops drastically after 9 PM.",
+    "category": "Internet",
+    "status": "Pending",
+    "createdAt": "2026-05-06T18:28:02.490Z",
+    "updatedAt": "2026-05-06T18:28:02.490Z",
+    "resolutionNote": "",
+    "section": "GENERAL",
+    "evidenceImage": null,
+    "evidenceName": null
+  }
+]

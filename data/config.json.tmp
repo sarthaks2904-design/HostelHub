@@ -1,0 +1,6 @@
+{
+  "curfewTime": "22:00",
+  "violationFine": 250,
+  "overdueGraceMinutes": 0,
+  "defaultExitHours": 4
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "meal-feedback-fb2b4916-e5be-462f-8d23-bdcd83bc869b",
+    "studentId": "stu-001",
+    "day": "Monday",
+    "mealType": "Lunch",
+    "rating": 4,
+    "feedback": "Paneer curry was good.",
+    "createdAt": "2026-05-06T06:28:02.490Z"
+  },
+  {
+    "id": "meal-feedback-9e6fe3d1-ba9c-43c9-a5ec-eeaf906e394c",
+    "studentId": "stu-004",
+    "day": "Tuesday",
+    "mealType": "Dinner",
+    "rating": 5,
+    "feedback": "Well balanced and fresh.",
+    "createdAt": "2026-05-06T16:28:02.490Z"
+  }
+]

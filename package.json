@@ -1,0 +1,31 @@
+{
+  "name": "hostelhub",
+  "version": "1.0.0",
+  "description": "Production-ready hostel management web application with JSON file storage, JWT auth, and real-time updates.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "hostel",
+    "management",
+    "socket.io",
+    "jwt",
+    "json-storage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.8.0",
+    "cookie": "^1.0.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  }
+}
