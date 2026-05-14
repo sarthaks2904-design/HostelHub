@@ -58,5 +58,50 @@
     "updatedAt": "2026-05-07T02:32:43.735Z",
     "violationApplied": false,
     "overdueAlertedAt": null
+  },
+  {
+    "id": "movement-85f08018-e454-4dc8-bfec-1efb062dea69",
+    "studentId": "student-ebe653ae-db0a-48cb-98d5-bdf0aad28ece",
+    "purpose": "City",
+    "status": "CLOSED",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-08T08:22:38.669Z",
+    "expectedReturnTime": "2026-05-09T08:21:00.000Z",
+    "returnTime": "2026-05-08T08:22:45.377Z",
+    "note": "Shopping",
+    "createdAt": "2026-05-08T08:22:38.673Z",
+    "updatedAt": "2026-05-08T08:22:45.377Z",
+    "violationApplied": false,
+    "overdueAlertedAt": null
+  },
+  {
+    "id": "movement-c9245236-3170-4280-8fb1-73c37bdbdeb5",
+    "studentId": "student-b3ae0704-2325-4e45-889d-7b23d49bbb4e",
+    "purpose": "Home",
+    "status": "OPEN",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-14T02:40:47.457Z",
+    "expectedReturnTime": "2026-05-16T04:40:00.000Z",
+    "returnTime": null,
+    "note": "Bcz of Emergency",
+    "createdAt": "2026-05-14T02:40:47.459Z",
+    "updatedAt": "2026-05-14T02:40:47.459Z",
+    "violationApplied": false,
+    "overdueAlertedAt": null
+  },
+  {
+    "id": "movement-6e572b35-6604-48af-9ce8-197dafecbe4d",
+    "studentId": "student-12238b5e-a14a-4a01-b819-664b1b94de47",
+    "purpose": "College",
+    "status": "OPEN",
+    "mode": "MANUAL",
+    "exitTime": "2026-05-14T02:45:20.290Z",
+    "expectedReturnTime": "2026-05-14T05:48:00.000Z",
+    "returnTime": null,
+    "note": "",
+    "createdAt": "2026-05-14T02:45:20.291Z",
+    "updatedAt": "2026-05-14T02:45:20.291Z",
+    "violationApplied": false,
+    "overdueAlertedAt": null
   }
 ]

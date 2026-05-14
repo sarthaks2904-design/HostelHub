@@ -462,12 +462,8 @@ function renderAuth() {
   return `
     <div class="auth-shell">
       <section class="hero-card">
-        <span class="eyebrow">Hostel Management Platform</span>
+        <span class="eyebrow">Hostel Management System</span>
         <h1>HostelHub</h1>
-        <p>
-          JSON-backed hostel operations with secure JWT authentication, admin fee verification,
-          hostel-scoped wardens, receipt uploads, anti-ragging reporting, SOS alerts, and live updates.
-        </p>
         <div class="demo-box">
           <h3>Demo Credentials</h3>
           <p>Admin: <strong>admin</strong> / <strong>Admin@123</strong></p>
@@ -482,10 +478,9 @@ function renderAuth() {
           <form class="stack-card" data-form="login">
             <div class="stack-head">
               <h3>Sign In</h3>
-              <span class="meta-line">Role-based login</span>
             </div>
             <label>
-              <span>Role</span>
+              <span>Select Role</span>
               <select name="role">
                 <option value="STUDENT">Student</option>
                 <option value="WARDEN">Warden</option>
@@ -493,7 +488,7 @@ function renderAuth() {
               </select>
             </label>
             <label>
-              <span>Identifier</span>
+              <span>Enrollment/Username</span>
               <input name="identifier" type="text" placeholder="Enrollment number or username" required />
             </label>
             <label>
@@ -506,7 +501,6 @@ function renderAuth() {
           <form class="stack-card" data-form="register">
             <div class="stack-head">
               <h3>Student Registration</h3>
-              <span class="meta-line">Academic and hostel details required</span>
             </div>
             <div class="form-grid">
               <label>
@@ -538,7 +532,7 @@ function renderAuth() {
                 <input name="location" type="text" placeholder="City or Village" required />
               </label>
               <label>
-                <span>College Name</span>
+                <span>College</span>
                 <input name="collegeName" type="text" required />
               </label>
               <label>
@@ -546,7 +540,7 @@ function renderAuth() {
                 <input name="department" type="text" required />
               </label>
               <label>
-                <span>Academic Year</span>
+                <span>Year</span>
                 <input name="academicYear" type="text" placeholder="Third Year" required />
               </label>
               <label>
@@ -586,7 +580,7 @@ function renderNav(user, currentPage) {
           ["dashboard", "Dashboard"],
           ["students", "Students"],
           ["fees", "Fees"],
-          ["movements", "Movements"],
+          ["movements", "IN-OUT"],
           ["complaints", "Complaints"],
           ["anti-ragging", "Anti-Ragging"],
           ["notifications", "Notifications"],
@@ -1061,22 +1055,22 @@ function renderStaffDashboard(state) {
   return `
     <section class="content-grid">
       <div class="metrics-row">
-        ${metricCard("Visible Students", String(metrics.total), "accent-blue", "Scope filtered by hostel")}
+        ${metricCard("All Students", String(metrics.total), "accent-blue", "Total Registered Students")}
         ${metricCard("Students IN", String(metrics.in), "accent-green", "Inside hostel")}
         ${metricCard("Students OUT", String(metrics.out), "accent-gold", "Currently outside")}
-        ${metricCard("Overdue", String(metrics.overdue), "accent-red", "Need immediate follow-up")}
+        ${metricCard("Payment Overdue", String(metrics.overdue), "accent-red", "Requires Immediate Attention")}
       </div>
 
       <div class="metrics-row">
-        ${metricCard("Pending Fee", formatCurrency(feeSummary.pending), "accent-red", "Outstanding across visible students")}
-        ${metricCard("Collected Fee", formatCurrency(feeSummary.paid), "accent-green", "Confirmed payments")}
-        ${metricCard("Fine Charges", formatCurrency(feeSummary.fine), "accent-gold", "Manual and rule-based fines")}
-        ${metricCard("Receipts to Review", String(feeSummary.pendingApprovals || 0), "accent-blue", "Awaiting admin confirmation")}
+        ${metricCard("Pending Fee", formatCurrency(feeSummary.pending), "accent-red", "Total Pending Fees")}
+        ${metricCard("Collected Fee", formatCurrency(feeSummary.paid), "accent-green", "Payments Accepted")}
+        ${metricCard("Fine Charges", formatCurrency(feeSummary.fine), "accent-gold", "Manual and Rule-based fines")}
+        ${metricCard("Pending Approvals", String(feeSummary.pendingApprovals || 0), "accent-blue", "Pending Receipt Verification")}
       </div>
 
       <article class="panel">
         <div class="panel-head">
-          <h3>Payment Review Queue</h3>
+          <h3>Payment verification list</h3>
         </div>
         <div class="stack-list">
           ${
@@ -1415,7 +1409,6 @@ function renderStaffMovements(state) {
         </div>
         <form class="form-grid" data-form="scan-qr">
           <label>
-            <span>QR Token</span>
             <input type="text" name="qrToken" required placeholder="Paste student QR token" />
           </label>
           <label>
@@ -1646,7 +1639,7 @@ function renderSettings(state) {
     <section class="content-grid">
       <article class="panel">
         <div class="panel-head">
-          <h3>Curfew and Violation Settings</h3>
+          <h3>Rules and penalty settings</h3>
         </div>
         <form class="form-grid" data-form="config-update">
           <label>
@@ -1654,19 +1647,19 @@ function renderSettings(state) {
             <input type="time" name="curfewTime" value="${escapeHtml(config.curfewTime || "22:00")}" />
           </label>
           <label>
-            <span>Violation Fine</span>
+            <span>Fine amount</span>
             <input type="number" name="violationFine" value="${escapeHtml(
               config.violationFine || 250
             )}" />
           </label>
           <label>
-            <span>Overdue Grace Minutes</span>
+            <span>Allowed late time</span>
             <input type="number" name="overdueGraceMinutes" value="${escapeHtml(
               config.overdueGraceMinutes || 0
             )}" />
           </label>
           <label>
-            <span>Default Exit Hours</span>
+            <span>Regular exit time</span>
             <input type="number" name="defaultExitHours" value="${escapeHtml(
               config.defaultExitHours || 4
             )}" />
@@ -1714,7 +1707,6 @@ export function renderApp(root, state) {
         <div>
           <div class="brand-mark">HH</div>
           <h1>HostelHub</h1>
-          <p class="sidebar-copy">Secure hostel operations, fee verification, scoped warden access, and student services.</p>
         </div>
         <div class="user-chip">
           <strong>${escapeHtml(state.user.name)}</strong>
@@ -1734,7 +1726,6 @@ export function renderApp(root, state) {
       <main class="main-shell">
         <header class="topbar">
           <div>
-            <span class="eyebrow">Live Workspace</span>
             <h2>${escapeHtml(titleCase(state.currentPage))}</h2>
           </div>
           <div class="topbar-meta">

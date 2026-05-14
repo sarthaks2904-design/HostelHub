@@ -212,5 +212,51 @@
     "absentDays": 0,
     "lateCount": 0,
     "records": []
+  },
+  {
+    "studentId": "student-ebe653ae-db0a-48cb-98d5-bdf0aad28ece",
+    "percentage": 100,
+    "presentDays": 1,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": [
+      {
+        "date": "2026-05-08",
+        "status": "PRESENT",
+        "updatedAt": "2026-05-08T08:22:45.377Z"
+      }
+    ]
+  },
+  {
+    "studentId": "student-b3ae0704-2325-4e45-889d-7b23d49bbb4e",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  },
+  {
+    "studentId": "student-12238b5e-a14a-4a01-b819-664b1b94de47",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  },
+  {
+    "studentId": "student-7eaa9faf-5a6b-43da-a8f4-38b93007ed00",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
+  },
+  {
+    "studentId": "student-32212320-6e94-4ea5-80b9-3d48370108c4",
+    "percentage": 100,
+    "presentDays": 0,
+    "absentDays": 0,
+    "lateCount": 0,
+    "records": []
   }
 ]
